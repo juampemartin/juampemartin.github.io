@@ -2332,8 +2332,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .aboutImage {
   border-radius: 50%;
-  width: 75%;
+  width: 47%;
   height: auto;
+  margin-right: 1.25%;
+  margin-left: 1.25%;
 }
 
 .p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
@@ -2555,6 +2557,48 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- End home-about Area ------------*/
+
+/*-------- Start home-calculator Area ------------*/
+@media (max-width: 767px) {
+  .home-calculator-right {
+    margin-top: 30px;
+  }
+}
+
+.home-calculator-right h6 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.home-calculator-right h1 {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .home-calculator-right h1 {
+    font-size: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 376px) {
+  #divImage {
+    display: none; !important
+  }
+}
+
+.home-calculator-right p {
+  margin-bottom: 30px;
+  max-width: 445px;
+}
+
+.home-calculator-right .primary-btn:hover {
+  box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.3);
+}
+
+/*-------- End home-calculatorcalculator Area ------------*/
+
 /*--------- Start Services Area -------------*/
 .single-services {
   text-align: center;
