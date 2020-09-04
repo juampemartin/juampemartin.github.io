@@ -2336,6 +2336,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: auto;
   margin-right: 1.25%;
   margin-left: 1.25%;
+  padding-bottom: 1.25%;
+  padding-top: 1.25%;
 }
 
 .p1-gradient-bg, .banner-left .primary-btn, .home-about-right .primary-btn, .facts-area, .thumb .overlay-bg, .price-area .single-price:hover, .brands-area, .about-banner, .sb_bar {
@@ -2574,6 +2576,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 .home-calculator-right h1 {
   margin-bottom: 40px;
 }
+
+
+.calc-form {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 90px auto 90px; 
+  column-gap: 25px;
+  grid-row-gap: 20px;
+}
+
+.form-field { 
+  text-align: center;
+  justify-content: center;
+  margin:auto;  
+}
+
 
 @media (max-width: 991px) {
   .home-calculator-right h1 {
