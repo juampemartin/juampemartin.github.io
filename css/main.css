@@ -2330,6 +2330,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #008000;
 }
 
+.dumbbell-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .dumbbell-img {
+    display: none;
+  }
+}
+
 .aboutImage {
   border-radius: 50%;
   width: 47%;
@@ -2543,11 +2554,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 }
 
-@media only screen and (max-width: 376px) {
+/*@media only screen and (max-width: 376px) {
   #divImage {
     display: none; !important
   }
-}
+}*/
 
 .home-about-right p {
   margin-bottom: 30px;
@@ -2580,51 +2591,48 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 form {
   display: grid;
-  grid-template-columns: auto auto 170px;
-  grid-template-rows: 90px auto 90px; 
-  column-gap: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto; 
+  column-gap: 15px;
   grid-row-gap: 20px;
-  box-shadow: 5px 5px 6px grey;
-  padding: 1em; 
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
+  /*padding: 0.5em; */
+  max-width: auto;
+  margin-top: auto;  
 }
 
 form div {
   align-items: center;
-  text-align:left;
+  text-align:center;
   justify-content: center;
-  align-self: center;
-
+  
 }
 
 form select {
   border: none;
+  text-align: center;  
 }
+
+
+form select#exercise {
+  display: inline-flex;
+  align-items: center;
+}
+
 
 form input {
   height: 19px;
-  padding: auto;
+  padding: auto;  
   border: none;
 }
 
-
-
-/*.calc-form form {
-  display: grid;
-  grid-template-columns: 165px auto 165px;
-  grid-template-rows: 90px auto 90px; 
-  column-gap: 25px;
-  grid-row-gap: 20px;
+form input#start-date {
+  text-align: center;
 }
 
-.form-field { 
-  text-align: center;
-  justify-content: center;
-  margin:0;  
-}*/
+#wo-btn {
+  max-width: 100;
+}
+
 
 
 @media (max-width: 991px) {
@@ -2634,11 +2642,6 @@ form input {
   
 }
 
-@media only screen and (max-width: 376px) {
-  #divImage {
-    display: none; !important
-  }
-}
 
 .home-calculator-right p {
   margin-bottom: 30px;
