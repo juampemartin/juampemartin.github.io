@@ -2578,9 +2578,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-.calc-form {
+form {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto 170px;
+  grid-template-rows: 90px auto 90px; 
+  column-gap: 20px;
+  grid-row-gap: 20px;
+  box-shadow: 5px 5px 6px grey;
+  padding: 1em; 
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+form div {
+  align-items: center;
+  text-align:left;
+  justify-content: center;
+  align-self: center;
+
+}
+
+form select {
+  border: none;
+}
+
+form input {
+  height: 19px;
+  padding: auto;
+  border: none;
+}
+
+
+
+/*.calc-form form {
+  display: grid;
+  grid-template-columns: 165px auto 165px;
   grid-template-rows: 90px auto 90px; 
   column-gap: 25px;
   grid-row-gap: 20px;
@@ -2589,8 +2623,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .form-field { 
   text-align: center;
   justify-content: center;
-  margin:auto;  
-}
+  margin:0;  
+}*/
 
 
 @media (max-width: 991px) {
