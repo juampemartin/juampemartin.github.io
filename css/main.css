@@ -2595,8 +2595,7 @@ form {
   grid-template-rows: auto auto auto; 
   column-gap: 15px;
   grid-row-gap: 20px;
-  /*padding: 0.5em; */
-  max-width: 400px;
+  width: 375px;
   padding: 4%;  
 }
 
@@ -2615,7 +2614,7 @@ form select {
 
 form select#exercise { 
   text-align: center;
-  margin-left: 19%;
+  padding-left: 19%;
 }
 
 
@@ -2629,9 +2628,6 @@ form input#start-date {
   text-align: center;
 }
 
-#wo-btn {
-  max-width: 100;
-}
 
 
 @media (max-width: 991px) {
