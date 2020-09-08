@@ -1989,7 +1989,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.form-select {
+/*.form-select {
   height: 40px;
   width: 100%;
 }
@@ -2042,7 +2042,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .form-select .nice-select::after {
   right: 20px;
-}
+}*/
 
 /* =================================== */
 /*  Menu Styles
@@ -2596,8 +2596,8 @@ form {
   column-gap: 15px;
   grid-row-gap: 20px;
   /*padding: 0.5em; */
-  max-width: auto;
-  margin-top: auto;  
+  max-width: 400px;
+  padding: 4%;  
 }
 
 form div {
@@ -2613,9 +2613,9 @@ form select {
 }
 
 
-form select#exercise {
-  display: inline-flex;
-  align-items: center;
+form select#exercise { 
+  text-align: center;
+  margin-left: 19%;
 }
 
 
@@ -2629,15 +2629,11 @@ form input#start-date {
   text-align: center;
 }
 
-<<<<<<< HEAD
 #wo-btn {
   max-width: 100;
 }
 
 
-
-=======
->>>>>>> efedb5c759cb67283d8360563dac7e3ea0e38af3
 @media (max-width: 991px) {
   .home-calculator-right h1 {
     font-size: 20px;

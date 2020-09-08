@@ -18,7 +18,7 @@
             console.log('added' , {workouts} );
             let pre = document.querySelector('#msg pre');
             //saving to localStorage
-            localStorage.setItem('MyWorkoutList', JSON.stringify(workouts) );
+            // localStorage.setItem('MyWorkoutList', JSON.stringify(workouts) );
         }
         document.addEventListener('DOMContentLoaded', ()=>{
             document.getElementById('wo-btn').addEventListener('click', addWorkout);
